@@ -1,0 +1,62 @@
+# Imports go at the top
+from microbit import *
+
+
+# Code in a 'while True:' loop repeats forever
+while True:
+    display.show(Image('03330:'
+                       '30903:'
+                       '30903:'
+                       '30003:'
+                       '03330'))
+    sleep(1000)
+    display.show(Image('03330:'
+                       '30093:'
+                       '30903:'
+                       '30003:'
+                       '03330'))
+    sleep(1000)
+    display.show(Image('03330:'
+                       '30003:'
+                       '30993:'
+                       '30003:'
+                       '03330'))
+    sleep(1000)
+    display.show(Image('03330:'
+                       '30003:'
+                       '30903:'
+                       '30093:'
+                       '03330'))
+    sleep(1000)
+    display.show(Image('03330:'
+                       '30003:'
+                       '30903:'
+                       '30903:'
+                       '03330'))
+    sleep(1000)
+    display.show(Image('03330:'
+                       '30003:'
+                       '30903:'
+                       '39003:'
+                       '03330'))
+    sleep(1000)
+    display.show(Image('03330:'
+                       '30003:'
+                       '39903:'
+                       '30003:'
+                       '03330'))
+    sleep(1000)
+    display.show(Image('03330:'
+                       '39003:'
+                       '30903:'
+                       '30003:'
+                       '03330'))
+    sleep(1000)
+    display.show(Image('03330:'
+                       '30903:'
+                       '30903:'
+                       '30003:'
+                       '03330'))
+    
+    
+   
