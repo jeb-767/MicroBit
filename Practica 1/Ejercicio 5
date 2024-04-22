@@ -1,0 +1,12 @@
+# Imports go at the top
+from microbit import *
+
+
+# Code in a 'while True:' loop repeats forever
+while True:
+    display.show(Image('00600:'
+                       '06960:'
+                       '69996:'
+                       '06960:'
+                       '00600'))
+    
