@@ -1,0 +1,29 @@
+# Imports go at the top
+from microbit import *
+led = [2,2]
+display.set_pixel(led[0],led[1],9)
+sleep(2000)
+display.clear()
+# Code in a 'while True:' loop repeats forever
+while True:
+    if accelerometer.was_gesture('up'):
+        led[1] -= 1
+        display.set_pixel(led[0] , led[1] , 9)
+        sleep(2000)
+        display.clear()
+    elif accelerometer.was_gesture('down'):
+        led[1] += 1
+        display.set_pixel(led[0] , led[1] , 9)
+        sleep(2000)
+        display.clear()
+    elif accelerometer.was_gesture('right'):
+        led[0] += 1
+        display.set_pixel(led[0] , led[1] , 9)
+        sleep(2000)
+        display.clear()
+    elif accelerometer.was_gesture('left'):
+        led[0] -= 1
+        display.set_pixel(led[0] , led[1] , 9)
+        sleep(2000)
+        display.clear()
+    
